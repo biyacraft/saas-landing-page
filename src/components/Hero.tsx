@@ -1,6 +1,5 @@
 "use client"
 import StarImage from '../assets/images/star.png'
-import ArrowIcon from '../assets/icons/arrow-w.svg'
 import CursorImage from '../assets/images/select.png'
 import Image from 'next/image';
 import { motion } from 'framer-motion'
@@ -33,17 +32,13 @@ export const Hero = () => {
         </div>
         <div className="flex justify-center">
           <p className='text-xl text-center mt-8 max-w-md'>No more interpretive dances with your credit card, no more sacrificing your firstborn
-             to buy socks online. We've somehow 
+             to buy socks online. We&apos;ve somehow 
             managed to achieve the utterly impossible task of moving money from Point A to Point B without requiring a PhD in rocket science.</p>
         </div>
         <div className="flex justify-center mt-8">
           <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Get for free</button>
         </div>
-
-
       </div>
-
-
     </div>
   )
 };
