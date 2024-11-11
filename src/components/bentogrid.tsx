@@ -99,7 +99,7 @@ const CardWithEffect = ({ children }: { children: React.ReactNode }) => {
             height: '300px',
             top: mousePosition.y - 150,
             left: mousePosition.x - 150,
-            background: '#5eead4',
+            background: '#666666',
             filter: 'blur(100px)',
             transform: 'translate(-0%, -0%)',
             zIndex: 10, // Ensure the effect is on top
@@ -221,7 +221,7 @@ const BentoBox1 = () => {
                 <svg viewBox={`0 0 ${chartWidth} ${chartHeight}`} className="w-full h-full pl-11">
                   <defs>
                     <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                      <stop offset="0%" stopColor="#5eead4" />
+                      <stop offset="0%" stopColor="#666666" />
                       <stop offset="100%" stopColor="transparent" />
                     </linearGradient>
                   </defs>
@@ -237,7 +237,7 @@ const BentoBox1 = () => {
                   />
                   <motion.polyline
                     fill="none"
-                    stroke="#5eead4"
+                    stroke="#666666"
                     strokeWidth="3"
                     className=""
                     points={data

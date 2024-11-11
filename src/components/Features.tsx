@@ -14,13 +14,8 @@ export const Features = () => {
         </div>
         <div className="flex flex-col items-center justify-center sm:flex-row gap-4 mt-32">
           <Bentodemo />
-          
-
         </div>
-
       </div>
-
-
     </div>
   )
 }

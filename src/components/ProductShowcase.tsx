@@ -15,7 +15,7 @@ const rotateX = useTransform(scrollYProgress, [0, 1], [15,0]);
 const opacity = useTransform(scrollYProgress, [0, 1], [.3,1]);
 
   return (
-    <div className="bg-black text-white bg-gradient-to-b from-black to-[#5eead4] py-[72px] sm:py-24">
+    <div className="bg-black text-white bg-gradient-to-b from-black to-[#666666] py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-center text-5xl font-bold tracking-tighter">Intituve interface</h2>
         <div className='max-w-xl mx-auto'>

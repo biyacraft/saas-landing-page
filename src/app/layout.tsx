@@ -6,7 +6,7 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saas Template - EldoraUI",
+  title: "Saas Landing Page",
   description: "Template for saas applications with dark theme",
 };
 

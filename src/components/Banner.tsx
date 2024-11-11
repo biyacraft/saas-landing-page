@@ -9,7 +9,7 @@ export function Banner() {
     <div className="relative top-0 bg-black py-3 text-white md:py-0 border-b border-white/20">
       <div className="container flex flex-col items-center justify-center gap-4 md:h-12 md:flex-row">
         <Link
-          href="https://github.com/karthikmudunuri/eldoraui"
+          href="https://github.com/biyacraft/saas-landing-page"
           target="_blank"
           className="group inline-flex items-center justify-center text-center text-sm leading-loose"
         >
