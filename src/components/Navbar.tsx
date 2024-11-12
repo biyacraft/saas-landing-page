@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import MenuIcon from '../assets/icons/menu.svg';
-import LogoImage from '../assets/images/lock.png'
+import LogoImage from '../assets/images/logo.png'
 
 
 export const Navbar = () => {
